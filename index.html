@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="oscuro">
+
+
+  <header class="header">
+    <!--Modo Claro y Oscuro-->
+    
+    <div class="switches">
+      <div id="cambiarTema" class="cambiarTema">
+        <div id="toggle" id="cambiarTema">
+          <i class="indicador"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Selector de Idionas-->
+    <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+        <img src="/assets/icons/es.svg" alt="">
+      </div>
+      <div class="flags__item" data-language="en">
+        <img src="/assets/icons/us.svg" alt="">
+      </div>
+    </div>
+
+    <!-- Selector de colores de texto-->
+    <div id="cambiarColores" class="colores">
+      <div data-color="hsl(214,84%,56%)" class="colores__item colores__items--azul"></div>
+      <div data-color="hsl(150,84%,56%)" class="colores__item colores__items--verde"></div>
+      <div data-color="hsl(276,84%,56%)" class="colores__item colores__items--violeta"></div>
+      <div data-color="hsl(46,84%,56%)" class="colores__item colores__items--naranja"></div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section class="column column--left">
+      <!--Perfil-->
+      <article class="card card--profile">
+        <div class="card__imagen-container">
+          <img src="/assets/images/img001 (2).jpg" alt="">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title no-margin">
+            Daniel Quijano
+          </h2>
+          <p class="card__subtitulo no-margin">
+            Front-End Developer
+          </p>
+        </div>
+        <div class="car__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:hector.daniel.quijano@gmail.com">hector.daniel.quijano@gmail.com</a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:+5491122521618">+549-1122521618
+            </a>
+          </div>
+          <p class="card__text">
+            Programador Trainee dando mis primeros pasos en el mundo del Desarrollo Web. Apasionado en las NUEVAS
+            TECNOLOGÍAS. Con muchas ganas de crecer aprendiendo
+          </p>
+        </div>
+      </article>
+
+      <!--EXPERIENCIA LABORAL-->
+      <article class="card card--experiencia">
+        <h2 class="card__title">Experiencia Laboral</h2>
+
+
+        <div class="experiencia">
+          <img src="assets/images/Prosegur.png" alt="Logo" class="experiencia__imagen">
+          <div class="experiencia__info">
+            <p class="experiencia__tiempo">
+              Feb 2017 - Jul 2017
+            </p>
+            <h3 class="experiencia__trabajo"> Prosegur</h3>
+            <p class="experiencia__descripcion"> Vigilador General - Encargado de la Vigilancia de zonas de suma
+              importancia.</p>
+          </div>
+        </div>
+
+        <div class="experiencia">
+          <img src="" alt="Sin Logo" class="experiencia__imagen">
+          <div class="experiencia__info">
+            <p class="experiencia__tiempo">
+              Ago 2017 - Dic 2019
+            </p>
+            <h3 class="experiencia__trabajo"> Play Bimbi</h3>
+            <p class="experiencia__descripcion"> Atencion al Cliente y Servicio de Post-venta</p>
+          </div>
+        </div>
+
+        <div class="experiencia">
+          <img src="assets/images/logo.png" alt="Logo" class="experiencia__imagen">
+          <div class="experiencia__info">
+            <p class="experiencia__tiempo">
+              Feb 2020 - Actualidad
+            </p>
+            <h3 class="experiencia__trabajo"> ZK-Tecno</h3>
+            <p class="experiencia__descripcion"> Tecnico en Reparacion de Celulares/PC. Atencion al Cliente</p>
+          </div>
+        </div>
+
+      </article>
+
+    </section>
+
+    <!-- LADO DERECHO-->
+    <section class="column column--right">
+
+      <!--HABILIDADES-->
+      <article class="card">
+        <h2 class="card__title">Front End</h2>
+        <small>Años de Experiencia</small>
+        <div class="skills"></div>
+        <div class="skills__header ">
+          <span class="skills_start-level">0</span>
+          <span class="skills_start-level">1</span>
+        </div>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+            <div class="skills__bar skills__bar--80">
+            </div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <div class="skills__bar skills__bar--80">
+            </div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">JavaScript</p>
+            <div class="skills__bar skills__bar--50">
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2 class="card__title">Redes Sociales</h2>
+        <div class="skills"></div>
+        <a href=""></a>
+      </article>
+
+
+      <!--PROYECTOS-->
+
+      <!-- Primera Version Desktop Beauty Port-->
+      <article class="card card--proyecto">
+        <div class="card__imagen-container">
+          <img src="assets/images/Captura web_11-11-2022_125440_beautyport.000webhostapp.com.jpeg" alt=""
+            class="card__imagen">
+        </div>
+        <div class="proyecto">
+          <div class="proyecto__etiquetas">
+            <span class="proyecto__etiqueta">#HTML</span>
+            <span class="proyecto__etiqueta">#CSS</span>
+            <span class="proyecto__etiqueta">#JavaScript</span>
+            <span class="proyecto__etiqueta">#Responsive</span>
+          </div>
+          <h2 class="card__title">Beauty Port</h2>
+          <p class="card__text">Primera version de Pagina hecha en Curso. </n>
+          </p>
+          <div class="botones">
+            <a href="http://beautyport.000webhostapp.com/index.html" target="_blank"
+              class="button button--primary">Link_Pagina</a>
+            <a href="#" class="button button--ghost">Codigo</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Version APP para Beauty Port-->
+      <article class="card card--proyecto">
+        <div class="card__imagen-container">
+          <img src="assets/images/Captura web_12-11-2022_233043_danielquijano1.github.io.jpeg" alt=""
+            class="card__imagen">
+        </div>
+        <div class="proyecto">
+          <div class="proyecto__etiquetas">
+            <span class="proyecto__etiqueta">#HTML</span>
+            <span class="proyecto__etiqueta">#CSS</span>
+            <span class="proyecto__etiqueta">#JavaScript</span>
+            <span class="proyecto__etiqueta">#Responsive</span>
+          </div>
+          <h2 class="card__title">Beauty Port</h2>
+          <p class="card__text">Primera version de Pagina hecha en Curso. </n>
+          </p>
+          <div class="botones">
+            <a href="https://danielquijano1.github.io/BP-version1/" target="_blank"
+              class="button button--primary">Link_Pagina</a>
+            <a href="#" class="button button--ghost">Codigo</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Segunda Version Desktop Beauty Port-->
+      <article class="card card--proyecto">
+        <div class="card__imagen-container">
+          <img src="assets/images/Captura web_11-11-2022_125440_beautyport.000webhostapp.com.jpeg" alt=""
+            class="card__imagen">
+        </div>
+        <div class="proyecto">
+          <div class="proyecto__etiquetas">
+            <span class="proyecto__etiqueta">#HTML</span>
+            <span class="proyecto__etiqueta">#CSS</span>
+            <span class="proyecto__etiqueta">#JavaScript</span>
+            <span class="proyecto__etiqueta">#Responsive</span>
+          </div>
+          <h2 class="card__title">Beauty Port</h2>
+          <p class="card__text">Primera version de Pagina hecha en Curso. </n>
+          </p>
+          <div class="botones">
+            <a href="http://beautyport.000webhostapp.com/index.html" target="_blank"
+              class="button button--primary">Link_Pagina</a>
+            <a href="#" class="button button--ghost">Codigo</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Pizzeria Mia-->
+    <article class="card card--proyecto">
+      <div class="card__imagen-container">
+        <img src="assets/images/Captura web_11-11-2022_125440_beautyport.000webhostapp.com.jpeg" alt=""
+          class="card__imagen">
+      </div>
+      <div class="proyecto">
+        <div class="proyecto__etiquetas">
+          <span class="proyecto__etiqueta">#HTML</span>
+          <span class="proyecto__etiqueta">#CSS</span>
+          <span class="proyecto__etiqueta">#JavaScript</span>
+          <span class="proyecto__etiqueta">#Responsive</span>
+        </div>
+        <h2 class="card__title">Beauty Port</h2>
+        <p class="card__text">Primera version de Pagina hecha en Curso. </n>
+        </p>
+        <div class="botones">
+          <a href="http://beautyport.000webhostapp.com/index.html" target="_blank"
+            class="button button--primary">Link_Pagina</a>
+          <a href="#" class="button button--ghost">Codigo</a>
+        </div>
+      </div>
+    </article>
+    </section>
+
+  </main>
+
+
+
+  <footer></footer>
+
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
