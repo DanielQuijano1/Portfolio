@@ -255,6 +255,11 @@ body.oscuro {
     padding: .4em 0;
 }
 
+small{
+    
+    font-family: 'Roboto', sans-serif;
+}
+
 .skills__header {
     display: flex;
     justify-content: space-between;
