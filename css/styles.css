@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
 :root {
     --primary-color: hsl(214, 84%, 56%);
     --text-color: hsl(0, 0%, 31%) ;
@@ -236,6 +238,17 @@ justify-content: space-between;
 .card__text {
     font-size: .9rem;
     line-height: 1.8;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    width: 275px;
+    height: 50px;
+}
+
+.bi, .bi-facebook{
+   font-size: 30px;
 }
 
 @media screen and (min-width: 760px) {
