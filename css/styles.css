@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,500&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
 
 :root {
     --primary-color: hsl(214, 84%, 56%);
@@ -121,23 +122,6 @@ body.oscuro {
                 inset 0 -5px 5px rgba(0,0,0,0.1);
 }
 
-/*--------------------------CAMBIO DE LENGUAJE-----------------------------------------*/
-.flags{
-width: 75px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-
-.flags__item{
-    width: 30px;
-}
-
-.flags__img{
-    display: block;
-    cursor: pointer;
-
-}
 
 /*--------------------------CAMBIO DE COLORES-----------------------------------------*/
 
@@ -224,11 +208,18 @@ justify-content: space-between;
 .card__title {
     margin-bottom: 1em;
     font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-family: 'Montserrat', sans-serif;
+    
+    text-align: center;
 }
 
 .card__subtitulo {
     font-size: .9rem;
     opacity: .8;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .card__link {
@@ -238,6 +229,7 @@ justify-content: space-between;
 .card__text {
     font-size: .9rem;
     line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
 }
 
 .redes{
@@ -273,6 +265,7 @@ justify-content: space-between;
 .skills__tech {
     margin: 0;
     font-size: .8rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .skills__item {
@@ -280,6 +273,7 @@ justify-content: space-between;
     align-items: center;
     justify-content: space-between;
     margin-bottom: .5em;
+    
 }
 
 .skills__bar,
@@ -290,6 +284,7 @@ justify-content: space-between;
     background-color: #888;
     border-radius: var(--border-radius);
     overflow: hidden;
+    
 }
 
 .skills__bar::after {
@@ -371,6 +366,7 @@ justify-content: space-between;
 .experiencia__descripcion {
     font-size: .8rem;
     margin-bottom: 1.5em;
+    font-family: 'Roboto', sans-serif;
 }
 
 .proyecto{
