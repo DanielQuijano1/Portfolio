@@ -207,7 +207,6 @@ body.oscuro {
     text-transform: uppercase;
     letter-spacing: .2em;
     font-family: 'Montserrat', sans-serif;
-
     text-align: center;
 }
 
@@ -383,6 +382,7 @@ small {
     margin-bottom: .5em;
     color: var(--primary-color);
     transition: var(--trasition);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .experiencia__descripcion {
